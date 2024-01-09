@@ -43,9 +43,11 @@
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.ActiveCaption;
+            button1.BackColor = SystemColors.Highlight;
+            button1.BackgroundImageLayout = ImageLayout.Center;
             button1.Cursor = Cursors.AppStarting;
             button1.FlatStyle = FlatStyle.Popup;
+            button1.ForeColor = SystemColors.ButtonFace;
             button1.Location = new Point(167, 119);
             button1.Name = "button1";
             button1.Size = new Size(189, 68);
@@ -116,7 +118,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.MenuHighlight;
+            BackColor = SystemColors.GrayText;
             ClientSize = new Size(894, 546);
             Controls.Add(textBox1);
             Controls.Add(pictureBox1);
