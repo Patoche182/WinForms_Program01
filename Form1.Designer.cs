@@ -48,7 +48,7 @@
             button1.Cursor = Cursors.AppStarting;
             button1.FlatStyle = FlatStyle.Popup;
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(167, 119);
+            button1.Location = new Point(42, 49);
             button1.Name = "button1";
             button1.Size = new Size(189, 68);
             button1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(579, 119);
+            checkBox1.Location = new Point(280, 145);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(83, 19);
             checkBox1.TabIndex = 1;
@@ -69,23 +69,23 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(410, 119);
+            comboBox1.Location = new Point(262, 49);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
             comboBox1.TabIndex = 2;
             // 
             // hScrollBar1
             // 
-            hScrollBar1.Location = new Point(134, 427);
+            hScrollBar1.Location = new Point(33, 436);
             hScrollBar1.Name = "hScrollBar1";
-            hScrollBar1.Size = new Size(537, 20);
+            hScrollBar1.Size = new Size(807, 20);
             hScrollBar1.TabIndex = 3;
             // 
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(167, 272);
+            listBox1.Location = new Point(42, 145);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(204, 139);
             listBox1.TabIndex = 4;
@@ -93,7 +93,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(711, 119);
+            label1.Location = new Point(280, 193);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
             label1.TabIndex = 5;
@@ -101,7 +101,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(526, 256);
+            pictureBox1.Location = new Point(42, 352);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(145, 63);
             pictureBox1.TabIndex = 6;
@@ -109,7 +109,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(534, 342);
+            textBox1.Location = new Point(42, 306);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 7;
