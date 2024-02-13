@@ -48,7 +48,7 @@
             button1.Cursor = Cursors.AppStarting;
             button1.FlatStyle = FlatStyle.Popup;
             button1.ForeColor = SystemColors.ButtonFace;
-            button1.Location = new Point(42, 49);
+            button1.Location = new Point(651, 49);
             button1.Name = "button1";
             button1.Size = new Size(189, 68);
             button1.TabIndex = 0;
@@ -76,7 +76,7 @@
             // 
             // hScrollBar1
             // 
-            hScrollBar1.Location = new Point(33, 436);
+            hScrollBar1.Location = new Point(42, 488);
             hScrollBar1.Name = "hScrollBar1";
             hScrollBar1.Size = new Size(807, 20);
             hScrollBar1.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(42, 145);
+            listBox1.Location = new Point(625, 145);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(204, 139);
             listBox1.TabIndex = 4;
@@ -118,7 +118,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.GrayText;
+            BackColor = SystemColors.GradientActiveCaption;
             ClientSize = new Size(894, 546);
             Controls.Add(textBox1);
             Controls.Add(pictureBox1);
